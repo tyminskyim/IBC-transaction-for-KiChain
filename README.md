@@ -149,7 +149,7 @@ Replace with
     sudo systemctl enable rlyd
     sudo systemctl start rlyd
 
-To check the logs of the relayer, use:
+#### To check the logs of the relayer, use:
     journalctl -u rlyd -f
 	
 ### 16. To carry out an ibc transaction, you can use both the subcommands of the relay and, accordingly, the wallets that are added to it, as well as the subcommands of the clients of the networks and the wallets added to them. Examples:
@@ -171,3 +171,29 @@ To check the logs of the relayer, use:
 ### 17. After the transaction, we check the balance of the recipient's wallet to make sure that the tokens have arrived
 
     osmosisd q bank balances RECEIVER_ADDRESS_IN_OSMO_NETWORK --node http://54.166.148.90:26657/
+	
+	
+	
+## HASH of my transactions
+
+### HASH   "E8D8BD4077136BAB05B2E1F1786E30A7A5DC69D4828F1A1B65A9FDE5E76EA23E"
+
+https://api-challenge.blockchain.ki/txs/E8D8BD4077136BAB05B2E1F1786E30A7A5DC69D4828F1A1B65A9FDE5E76EA23E
+
+### HASH   "4F214848107408034723DD8E50A7ACF2D4569C990BF43C9D75D6E0281D587F16"
+
+https://api-challenge.blockchain.ki/txs/4F214848107408034723DD8E50A7ACF2D4569C990BF43C9D75D6E0281D587F16
+
+### HASH   "5C3C6139B7440421C028200A93E2CCCEA48C6D0A1A764A5BE3995B780FC57851"
+
+https://api-challenge.blockchain.ki/txs/5C3C6139B7440421C028200A93E2CCCEA48C6D0A1A764A5BE3995B780FC57851
+
+### HASH   "100A3C02A36A6C4D6BEC302AE2D4528B9D450E9968C15A15F636290F8BD32475"
+
+https://api-challenge.blockchain.ki/txs/100A3C02A36A6C4D6BEC302AE2D4528B9D450E9968C15A15F636290F8BD32475
+
+### HASH   "803AAEF8CADF47FAA5E16B70FC9402ED97FC48C8212C17CD98ED86A7AC1FAEAD"
+
+https://api-challenge.blockchain.ki/txs/803AAEF8CADF47FAA5E16B70FC9402ED97FC48C8212C17CD98ED86A7AC1FAEAD
+
+# Thank you all for reading.
