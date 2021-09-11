@@ -69,6 +69,8 @@ save ctrl+x yes enter
 	"trusting-period": "48h"
 	}
 	
+save ctrl+x yes enter
+	
 ### 5. Add pre-written settings to the config file of the relayer
 
     rly chains add -f kichain-t-4_config.json
